@@ -17,7 +17,7 @@ dpkg-deb --build leiningen_2.5.3 &&
 if [ ! -d eternalmetaphor ]
 then
 git clone git@github.com:rawflag/eternalmetaphor.git &&
-true &&
+true
 fi &&
 cd eternalmethaphor &&
 cp ../leiningen_2.5.3.deb . &&
