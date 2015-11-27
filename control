@@ -5,5 +5,5 @@ Priority: optional
 Architecture: x86-64
 Maintainer: Emory Merryman <emory.merryman@gmail.com>
 Description: Leiningen
-Leiningen is for automating Clojure projects without setting your hair on fire.
+ Leiningen is for automating Clojure projects without setting your hair on fire.
  
