@@ -19,7 +19,7 @@ then
 git clone git@github.com:rawflag/eternalmetaphor.git &&
 true
 fi &&
-cd eternalmethaphor &&
+cd eternalmetaphor &&
 cp ../leiningen_2.5.3.deb . &&
 dpkg-scanpackages . /dev/null | gzip -9c > Packages.gz &&
 git add leiningen_2.5.3.deb Packages.gz &&
