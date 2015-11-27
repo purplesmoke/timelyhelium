@@ -20,10 +20,10 @@ git clone git@github.com:rawflag/eternalmetaphor.git &&
 true
 fi &&
 cd eternalmetaphor &&
-mkdir --parents amd64 &&
-cp ../myleiningen_2.5.3.deb amd64 &&
-dpkg-scanpackages amd64 /dev/null > amd64/Packages &&
-git add amd64 &&
+mkdir --parents dists/main/amd64/binary-amd64 &&
+cp ../myleiningen_2.5.3.deb dists/main/amd64/binary-amd64 &&
+dpkg-scanpackages dists/main/amd64/binary-amd64 /dev/null > dists/main/amd64/binary-amd64/Packages &&
+git add dists/main/amd64/binary-amd64 &&
 git commit -m "added leiningen_2.5.3" &&
 git push origin master &&
 true
