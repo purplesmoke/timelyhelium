@@ -1,9 +1,10 @@
-Package: myleiningen
+Package: timelyhelium
 Version: 2.5.3
 Section: base
 Priority: optional
-Architecture: amd64
+Architecture: all
 Maintainer: Emory Merryman <emory.merryman@gmail.com>
 Description: Leiningen
  Leiningen is for automating Clojure projects without setting your hair on fire.
- 
+ The only reason I am packaging this is because I need a newer version of
+ leiningen than ubuntu provides.
