@@ -1,8 +1,8 @@
-Package: leiningen
+Package: myleiningen
 Version: 2.5.3
 Section: base
 Priority: optional
-Architecture: x86-64
+Architecture: amd64
 Maintainer: Emory Merryman <emory.merryman@gmail.com>
 Description: Leiningen
  Leiningen is for automating Clojure projects without setting your hair on fire.
