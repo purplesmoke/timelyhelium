@@ -10,6 +10,7 @@ EOF
 ) &&
 cd $(mktemp -d) &&
 git clone git@github.com:sillyflannel/easterntombstone.git &&
+git checkout master &&
 cd easterntombstone &&
 lein install &&
 true
